@@ -1,0 +1,42 @@
+textarea{
+   border: 0;
+  outline: 0;
+  background: transparent;
+  
+  border: none;
+  border-style: none; 
+    border-color: Transparent; 
+    overflow: auto; 
+	outline: none;
+  spellcheck: "false";
+resize: none;
+line-height: 1;  
+  }
+input[type="text"]{
+   border: 0;
+  outline: 0;
+  background: transparent;
+  
+  border: none;
+  border-style: none; 
+    border-color: Transparent; 
+    overflow: auto; 
+	outline: none;
+  spellcheck: "false";
+resize: none;
+line-height: 1;  
+  }
+  
+#main{
+	margin: auto;
+	background: url(background.jpg);
+	border-radius: 25px;
+	width: 40%;
+	padding: 10px; 
+background-repeat: repeat-y;
+} 
+html *
+{
+   font-size: 1em !important;
+   font-family: Verdana !important;
+} 
