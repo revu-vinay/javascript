@@ -1,0 +1,111 @@
+body{
+    font-family: Fresca;
+}
+
+#search{
+    padding: 20px;
+
+}
+
+#search .search_sub{
+    margin: 0 auto;
+}
+
+#search .search_sub h1{
+    font-weight: 300;
+    font-size:40px;
+    text-align: center;
+    padding: 30px 0;
+    color: royalblue;
+}
+
+input{
+    width: 100%;
+    border-radius: 50px;
+    -webkit-appearance: none;
+    border:1px solid crimson ;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: Fresca;
+}
+
+input:focus{
+    outline: none;
+
+}
+
+::-webkit-input-placeholder{
+         color: #3F51B5;
+    font-family: Fresca;
+    text-align: center;
+}
+
+#results_page{
+    margin-top: 50px;
+}
+#results_page .album_item{
+    padding:20px 10px;
+    border-top: 1px solid cyan;
+    text-align: center;
+    background: white;
+}
+
+#results_page .album_item .item_thumb{
+       width:200px;
+       height:200px;
+       margin: 0px auto;
+       background-size: cover !important;
+       background-repeat: no-repeat;
+
+}
+
+#results_page .album_item .item_title{
+    font-size: 20px;
+    padding: 20px 0px 10px;
+    text-align: center;
+}
+
+#results_page .album_item .item_price{
+    background: white;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+
+#results_page .album_item a {
+       background: red;
+       color: orange;
+       padding: 5px 10px ;
+       font-size: 10px;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+#not_match{
+
+    display: none;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
